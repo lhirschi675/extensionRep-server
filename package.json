@@ -1,0 +1,30 @@
+{
+  "name": "extensionrep-server",
+  "version": "1.0.0",
+  "description": "Server for extension that I am building this will authenticate the user and will be ran on GCP.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lhirschi675/extensionRep-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lhirschi675/extensionRep-server/issues"
+  },
+  "homepage": "https://github.com/lhirschi675/extensionRep-server#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "firebase-admin": "^13.4.0",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.10"
+  }
+}
